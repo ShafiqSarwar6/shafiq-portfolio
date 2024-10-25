@@ -37,3 +37,12 @@ body {
   // padding-top: calc(var(--index) * 2.5rem);
   top: calc(var(--index) * 4rem);
 }
+.custom-gradient-border {
+  border: 2px solid;
+  border-image-source: linear-gradient(
+    108.77deg,
+    rgba(255, 253, 243, 0.16) 13.99%,
+    rgba(238, 230, 195, 0) 66.81%
+  );
+  border-image-slice: 1;
+}
